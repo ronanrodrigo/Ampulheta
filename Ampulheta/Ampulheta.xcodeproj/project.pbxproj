@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3415823E1B580EEC00F3DA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415823D1B580EEC00F3DA4A /* AppDelegate.swift */; };
+		341582401B580EEC00F3DA4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415823F1B580EEC00F3DA4A /* ViewController.swift */; };
+		341582421B580EEC00F3DA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341582411B580EEC00F3DA4A /* Assets.xcassets */; };
+		341582451B580EEC00F3DA4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341582431B580EEC00F3DA4A /* Main.storyboard */; };
+		341582501B580EEC00F3DA4A /* AmpulhetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415824F1B580EEC00F3DA4A /* AmpulhetaTests.swift */; };
+		3415825B1B580EEC00F3DA4A /* AmpulhetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415825A1B580EEC00F3DA4A /* AmpulhetaUITests.swift */; };
+		3415826F1B58147400F3DA4A /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415826E1B58147400F3DA4A /* CountdownViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3415824C1B580EEC00F3DA4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341582321B580EEC00F3DA4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341582391B580EEC00F3DA4A;
+			remoteInfo = Ampulheta;
+		};
+		341582571B580EEC00F3DA4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341582321B580EEC00F3DA4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341582391B580EEC00F3DA4A;
+			remoteInfo = Ampulheta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3415823A1B580EEC00F3DA4A /* Ampulheta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ampulheta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3415823D1B580EEC00F3DA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3415823F1B580EEC00F3DA4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		341582411B580EEC00F3DA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341582441B580EEC00F3DA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		341582461B580EEC00F3DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3415824B1B580EEC00F3DA4A /* AmpulhetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmpulhetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3415824F1B580EEC00F3DA4A /* AmpulhetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpulhetaTests.swift; sourceTree = "<group>"; };
+		341582511B580EEC00F3DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341582561B580EEC00F3DA4A /* AmpulhetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmpulhetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3415825A1B580EEC00F3DA4A /* AmpulhetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpulhetaUITests.swift; sourceTree = "<group>"; };
+		3415825C1B580EEC00F3DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3415826E1B58147400F3DA4A /* CountdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341582371B580EEC00F3DA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341582481B580EEC00F3DA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341582531B580EEC00F3DA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341582311B580EEC00F3DA4A = {
+			isa = PBXGroup;
+			children = (
+				3415823C1B580EEC00F3DA4A /* Ampulheta */,
+				3415824E1B580EEC00F3DA4A /* AmpulhetaTests */,
+				341582591B580EEC00F3DA4A /* AmpulhetaUITests */,
+				3415823B1B580EEC00F3DA4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3415823B1B580EEC00F3DA4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3415823A1B580EEC00F3DA4A /* Ampulheta.app */,
+				3415824B1B580EEC00F3DA4A /* AmpulhetaTests.xctest */,
+				341582561B580EEC00F3DA4A /* AmpulhetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3415823C1B580EEC00F3DA4A /* Ampulheta */ = {
+			isa = PBXGroup;
+			children = (
+				3415823D1B580EEC00F3DA4A /* AppDelegate.swift */,
+				3415823F1B580EEC00F3DA4A /* ViewController.swift */,
+				341582411B580EEC00F3DA4A /* Assets.xcassets */,
+				341582431B580EEC00F3DA4A /* Main.storyboard */,
+				341582461B580EEC00F3DA4A /* Info.plist */,
+				3415826E1B58147400F3DA4A /* CountdownViewController.swift */,
+			);
+			path = Ampulheta;
+			sourceTree = "<group>";
+		};
+		3415824E1B580EEC00F3DA4A /* AmpulhetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3415824F1B580EEC00F3DA4A /* AmpulhetaTests.swift */,
+				341582511B580EEC00F3DA4A /* Info.plist */,
+			);
+			path = AmpulhetaTests;
+			sourceTree = "<group>";
+		};
+		341582591B580EEC00F3DA4A /* AmpulhetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3415825A1B580EEC00F3DA4A /* AmpulhetaUITests.swift */,
+				3415825C1B580EEC00F3DA4A /* Info.plist */,
+			);
+			path = AmpulhetaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		341582391B580EEC00F3DA4A /* Ampulheta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3415825F1B580EEC00F3DA4A /* Build configuration list for PBXNativeTarget "Ampulheta" */;
+			buildPhases = (
+				341582361B580EEC00F3DA4A /* Sources */,
+				341582371B580EEC00F3DA4A /* Frameworks */,
+				341582381B580EEC00F3DA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ampulheta;
+			productName = Ampulheta;
+			productReference = 3415823A1B580EEC00F3DA4A /* Ampulheta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3415824A1B580EEC00F3DA4A /* AmpulhetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341582621B580EEC00F3DA4A /* Build configuration list for PBXNativeTarget "AmpulhetaTests" */;
+			buildPhases = (
+				341582471B580EEC00F3DA4A /* Sources */,
+				341582481B580EEC00F3DA4A /* Frameworks */,
+				341582491B580EEC00F3DA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3415824D1B580EEC00F3DA4A /* PBXTargetDependency */,
+			);
+			name = AmpulhetaTests;
+			productName = AmpulhetaTests;
+			productReference = 3415824B1B580EEC00F3DA4A /* AmpulhetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		341582551B580EEC00F3DA4A /* AmpulhetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341582651B580EEC00F3DA4A /* Build configuration list for PBXNativeTarget "AmpulhetaUITests" */;
+			buildPhases = (
+				341582521B580EEC00F3DA4A /* Sources */,
+				341582531B580EEC00F3DA4A /* Frameworks */,
+				341582541B580EEC00F3DA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341582581B580EEC00F3DA4A /* PBXTargetDependency */,
+			);
+			name = AmpulhetaUITests;
+			productName = AmpulhetaUITests;
+			productReference = 341582561B580EEC00F3DA4A /* AmpulhetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		341582321B580EEC00F3DA4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ronan Rodrigo Nunes";
+				TargetAttributes = {
+					341582391B580EEC00F3DA4A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2729VXDM4D;
+					};
+					3415824A1B580EEC00F3DA4A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 341582391B580EEC00F3DA4A;
+					};
+					341582551B580EEC00F3DA4A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 341582391B580EEC00F3DA4A;
+					};
+				};
+			};
+			buildConfigurationList = 341582351B580EEC00F3DA4A /* Build configuration list for PBXProject "Ampulheta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 341582311B580EEC00F3DA4A;
+			productRefGroup = 3415823B1B580EEC00F3DA4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				341582391B580EEC00F3DA4A /* Ampulheta */,
+				3415824A1B580EEC00F3DA4A /* AmpulhetaTests */,
+				341582551B580EEC00F3DA4A /* AmpulhetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341582381B580EEC00F3DA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341582421B580EEC00F3DA4A /* Assets.xcassets in Resources */,
+				341582451B580EEC00F3DA4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341582491B580EEC00F3DA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341582541B580EEC00F3DA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		341582361B580EEC00F3DA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3415826F1B58147400F3DA4A /* CountdownViewController.swift in Sources */,
+				341582401B580EEC00F3DA4A /* ViewController.swift in Sources */,
+				3415823E1B580EEC00F3DA4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341582471B580EEC00F3DA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341582501B580EEC00F3DA4A /* AmpulhetaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341582521B580EEC00F3DA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3415825B1B580EEC00F3DA4A /* AmpulhetaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3415824D1B580EEC00F3DA4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341582391B580EEC00F3DA4A /* Ampulheta */;
+			targetProxy = 3415824C1B580EEC00F3DA4A /* PBXContainerItemProxy */;
+		};
+		341582581B580EEC00F3DA4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341582391B580EEC00F3DA4A /* Ampulheta */;
+			targetProxy = 341582571B580EEC00F3DA4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		341582431B580EEC00F3DA4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341582441B580EEC00F3DA4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3415825D1B580EEC00F3DA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3415825E1B580EEC00F3DA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		341582601B580EEC00F3DA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Ampulheta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oficinabit.Ampulheta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		341582611B580EEC00F3DA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Ampulheta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oficinabit.Ampulheta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		341582631B580EEC00F3DA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmpulhetaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oficinabit.AmpulhetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ampulheta.app/Contents/MacOS/Ampulheta";
+			};
+			name = Debug;
+		};
+		341582641B580EEC00F3DA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmpulhetaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oficinabit.AmpulhetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ampulheta.app/Contents/MacOS/Ampulheta";
+			};
+			name = Release;
+		};
+		341582661B580EEC00F3DA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmpulhetaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oficinabit.AmpulhetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ampulheta;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		341582671B580EEC00F3DA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmpulhetaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oficinabit.AmpulhetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ampulheta;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341582351B580EEC00F3DA4A /* Build configuration list for PBXProject "Ampulheta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3415825D1B580EEC00F3DA4A /* Debug */,
+				3415825E1B580EEC00F3DA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3415825F1B580EEC00F3DA4A /* Build configuration list for PBXNativeTarget "Ampulheta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341582601B580EEC00F3DA4A /* Debug */,
+				341582611B580EEC00F3DA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		341582621B580EEC00F3DA4A /* Build configuration list for PBXNativeTarget "AmpulhetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341582631B580EEC00F3DA4A /* Debug */,
+				341582641B580EEC00F3DA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		341582651B580EEC00F3DA4A /* Build configuration list for PBXNativeTarget "AmpulhetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341582661B580EEC00F3DA4A /* Debug */,
+				341582671B580EEC00F3DA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 341582321B580EEC00F3DA4A /* Project object */;
+}
