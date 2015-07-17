@@ -43,6 +43,6 @@ class CountdownViewController: NSViewController {
     func updateView(){
         secondsTxtFld.stringValue = String(secondsTxtFld.integerValue)
         secondsTxtFld.enabled = !counting
-        triggerBttn.title = counting ? "Parar" :  "Começar"
+        triggerBttn.title = counting ? "🔴" :  "🔵"
     }
 }

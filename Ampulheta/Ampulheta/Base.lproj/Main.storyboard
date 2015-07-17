@@ -697,9 +697,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="135" id="s2s-5M-Hke"/>
                                 </constraints>
-                                <buttonCell key="cell" type="bevel" title="Começar" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" sound="Glass" inset="2" id="nfQ-fL-GSV">
+                                <buttonCell key="cell" type="bevel" title="🔵" bezelStyle="regularSquare" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" sound="Glass" inset="2" id="nfQ-fL-GSV">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="system" size="80"/>
                                     <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
